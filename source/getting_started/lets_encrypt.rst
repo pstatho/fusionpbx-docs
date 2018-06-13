@@ -229,6 +229,9 @@ Paste this into the .conf file (don't forget to change the defaults, especially 
  # turn off the ncurses UI, we want this to be run as a cronjob
  text = True
 
+ # renewal to be done in non-interactive mode
+ non-interactive = True
+ 
  # authenticate by placing a file in the webroot (under .well-known/acme-upatechallenge/)
  # and then letting LE fetch it
  authenticator = webroot
